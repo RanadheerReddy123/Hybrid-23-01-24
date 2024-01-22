@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="ranad &lt;ranad@LAPTOP-SCHMC8F3&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="ranad &lt;ranad@LAPTOP-SCHMC8F3&gt;"/>
+	</list>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\RR\eclipse-workspace\DDT_Framework\.git">
+			<item value="false"/>
+			<item value="ranad &lt;ranad@LAPTOP-SCHMC8F3&gt;"/>
+			<item value="from new laptop"/>
+			<item value="ranad &lt;ranad@LAPTOP-SCHMC8F3&gt;"/>
+			<item value="40d80367c50d3afca9f10def6f249b27ece17b8b"/>
+			<item value="0"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>
