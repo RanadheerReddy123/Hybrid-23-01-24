@@ -161,3 +161,128 @@ org.eclipse.jgit.errors.TransportException: https://github.com/RanadheerReddy123
 	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
 	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-01-23 19:18:03.202
+!MESSAGE An exception occurred during push on URI https://github.com/RanadheerReddy123/Hybrid-23-01-24.git: https://github.com/RanadheerReddy123/Hybrid-23-01-24.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/RanadheerReddy123/Hybrid-23-01-24.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:531)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:435)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1310)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-01-23 19:22:52.744
+!MESSAGE An exception occurred during push on URI https://github.com/RanadheerReddy123/Hybrid-23-01-24.git: https://github.com/RanadheerReddy123/Hybrid-23-01-24.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/RanadheerReddy123/Hybrid-23-01-24.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:531)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:435)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1310)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-01-23 19:41:56.675
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-01-23 19:41:56.675
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-01-23 19:41:56.675
+!MESSAGE C:\RR\eclipse-workspace overlaps the workspace location: C:\RR\eclipse-workspace
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-01-23 19:46:01.180
+!MESSAGE Connecting Git team provider failed. See log for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connecting Git team provider failed. See log for details.
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:112)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$8.run(GitImportWizard.java:289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:296)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:236)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Error connecting project RestAssured_Project, suggested path 'C:\Users\ranad\git\RestAssured\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/RR/eclipse-workspace/.git' ]]'.
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2024-01-23 19:46:01.185
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2024-01-23 19:46:01.185
+!MESSAGE Error connecting project RestAssured_Project, suggested path 'C:\Users\ranad\git\RestAssured\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/RR/eclipse-workspace/.git' ]]'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 19:52:01.350
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 19:52:01.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-01-23 19:52:02.162
+!MESSAGE Connecting Git team provider failed. See log for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connecting Git team provider failed. See log for details.
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:112)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$8.run(GitImportWizard.java:289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:296)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:236)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Error connecting project Maven_Project, suggested path 'C:\Users\ranad\Downloads\Selenium\JDKEclipse\eclipse\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/RR/eclipse-workspace/.git' ]]'.
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2024-01-23 19:52:02.164
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2024-01-23 19:52:02.164
+!MESSAGE Error connecting project Maven_Project, suggested path 'C:\Users\ranad\Downloads\Selenium\JDKEclipse\eclipse\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/RR/eclipse-workspace/.git' ]]'.
+!SESSION 2024-01-24 07:34:30.127 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-24 07:34:53.070
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ranad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2024-01-24 07:35:03.004
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to eclipse.org:443 [eclipse.org/198.41.30.198] failed: Read timed out. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to eclipse.org:443 [eclipse.org/198.41.30.198] failed: Read timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 17 more

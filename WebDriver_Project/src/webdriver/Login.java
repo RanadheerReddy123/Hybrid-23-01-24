@@ -9,12 +9,12 @@ public static void main(String[] args)throws Throwable {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		//launch url in a browser
-		driver.get("http://primusbank.qedgetech.com/");
+		driver.get("https://www.saucedemo.com/");
 		//suspend tool for 5 seconds
 		Thread.sleep(5000);
-		driver.findElement(By.id("txtuId")).sendKeys("Admin");
-		driver.findElement(By.name("txtPword")).sendKeys("Admin");
-		driver.findElement(By.id("login")).click();
+		driver.findElement(By.id("user-name")).sendKeys("standard_user");
+		driver.findElement(By.name("password")).sendKeys("secret_sauce");
+		driver.findElement(By.id("login-button")).click();
 		//suspend tool for 5 seconds
 		Thread.sleep(5000);
 		driver.quit();
